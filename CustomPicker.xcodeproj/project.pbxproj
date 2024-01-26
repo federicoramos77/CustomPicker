@@ -11,6 +11,8 @@
 		7A6F3FF42B5EBB930083C44A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F3FF32B5EBB930083C44A /* ContentView.swift */; };
 		7A6F3FF62B5EBB950083C44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F3FF52B5EBB950083C44A /* Assets.xcassets */; };
 		7A6F3FFA2B5EBB950083C44A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F3FF92B5EBB950083C44A /* Preview Assets.xcassets */; };
+		7A6F40012B5EBE640083C44A /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F40002B5EBE640083C44A /* CustomPicker.swift */; };
+		7A6F40072B61906E0083C44A /* retro_computer_personal_use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F40062B61906E0083C44A /* retro_computer_personal_use.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		7A6F3FF52B5EBB950083C44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6F3FF72B5EBB950083C44A /* CustomPicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomPicker.entitlements; sourceTree = "<group>"; };
 		7A6F3FF92B5EBB950083C44A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A6F40002B5EBE640083C44A /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		7A6F40062B61906E0083C44A /* retro_computer_personal_use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = retro_computer_personal_use.ttf; sourceTree = "<group>"; };
+		7A6F40092B6190B30083C44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +57,12 @@
 		7A6F3FF02B5EBB930083C44A /* CustomPicker */ = {
 			isa = PBXGroup;
 			children = (
+				7A6F40092B6190B30083C44A /* Info.plist */,
 				7A6F3FF12B5EBB930083C44A /* CustomPickerApp.swift */,
 				7A6F3FF32B5EBB930083C44A /* ContentView.swift */,
+				7A6F40002B5EBE640083C44A /* CustomPicker.swift */,
 				7A6F3FF52B5EBB950083C44A /* Assets.xcassets */,
+				7A6F40082B6190930083C44A /* Fonts */,
 				7A6F3FF72B5EBB950083C44A /* CustomPicker.entitlements */,
 				7A6F3FF82B5EBB950083C44A /* Preview Content */,
 			);
@@ -67,6 +75,14 @@
 				7A6F3FF92B5EBB950083C44A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A6F40082B6190930083C44A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7A6F40062B61906E0083C44A /* retro_computer_personal_use.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6F40072B61906E0083C44A /* retro_computer_personal_use.ttf in Resources */,
 				7A6F3FFA2B5EBB950083C44A /* Preview Assets.xcassets in Resources */,
 				7A6F3FF62B5EBB950083C44A /* Assets.xcassets in Resources */,
 			);
@@ -141,6 +158,7 @@
 			files = (
 				7A6F3FF42B5EBB930083C44A /* ContentView.swift in Sources */,
 				7A6F3FF22B5EBB930083C44A /* CustomPickerApp.swift in Sources */,
+				7A6F40012B5EBE640083C44A /* CustomPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +288,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CustomPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = SL5T87PUN5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomPicker/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -306,8 +326,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CustomPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = SL5T87PUN5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomPicker/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
